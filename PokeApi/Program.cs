@@ -89,7 +89,7 @@ class Program
             foreach (var archive in archives)
             {
                 File.Delete(archive);
-            }
+            } 
             if (images.Count > 0)
             {
                 try
